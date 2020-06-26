@@ -1,0 +1,41 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+     <title>Пример веб-страницы</title>
+  <script src="script.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css" >
+ </head>
+ <body>
+ <div class="content">
+ <button class="open-button" id="open" data-form-dn_id="15" onclick="openForm()">Показать форму</button>
+
+<div class="form-popup" id="myForm">
+  <form action="#" class="form-container">
+    <label for="name"><b>Имя</b></label>
+    <input type="text" placeholder="Ваше имя" name="name" id="name" >
+    
+    <label for="email"><b>Е-мейл</b></label>
+    <input type="text" placeholder="Ваш е-мейл" name="email" id="email" >
+
+    <label for="email"><b>Номер телефона</b></label>
+    <input type="text" placeholder="Ваш номер телефона" name="phone_number" id="phone_number" >
+  <div class="buttons">
+    <a href="#" class="btn" onclick="sendForm()">Отправить</a>
+    <a href="#" class="btn cancel" onclick="closeForm()">Закрыть</a>
+  </div>
+  </form>
+</div>
+</div>
+ </body>
+</html>
+
+
+
+
+
+
+
+
