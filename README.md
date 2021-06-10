@@ -1,5 +1,5 @@
 # popup
-Completed a test task to apply for a vacancy of WEB developer
+
 
 Задание для веб-разраба
 1. Необходимо написать js скрипт реализующий функционал попап-формы 
